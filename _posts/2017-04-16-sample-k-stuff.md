@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Sample /k/ stuff"
+title: "Mikoyan-Gurevich MiG-25; NATO Reporting name: Foxbat"
 date: 2017-04-16 21:55:13 +0800
 categories: Weapons
-tags: Status-6
+tags: MiG, Aircrafts, Fighters, Russia
 comments: 1
 ---
 
