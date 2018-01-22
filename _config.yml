@@ -20,7 +20,7 @@ baseurl: ""
 url: "https://gahnoo.com"
 permalink: /:year/:month/:day/:title
 repository: rlnaveenrm/rlnaveenrm.github.io
-paginate: 5
+paginate: 4
 
 # MatJek specific configurations
 github_profile: "https://github.com/rlnaveenrm"
