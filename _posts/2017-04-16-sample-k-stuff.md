@@ -3,7 +3,7 @@ layout: post
 title: "Mikoyan-Gurevich MiG-25 aka Foxbat"
 date: 2017-04-16 21:55:13 +0800
 categories: Weapons
-tags: MiG, Aircrafts, Fighters, Russia
+tags: MiG Aircrafts Fighters Russia 25
 comments: 1
 ---
 
