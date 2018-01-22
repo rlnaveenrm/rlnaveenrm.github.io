@@ -1,29 +1,46 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      rouge
-plugins: [jekyll-paginate, jekyll-gist]
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-
-# Permalinks
-#permalink:        pretty
-#relative_permalinks: true
-
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
-
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: "Gahnoo.com - My corner of the internet"
+description: > # this means to ignore newlines until "baseurl:"
+  Thoughts on Military, International relations and Technology. Also DIYs and Tutorials.
+baseurl: ""
+url: "https://gahnoo.com"
+permalink: /:year/:month/:day/:title
+repository: rlnaveenrm/rlnaveenrm.github.io
 paginate: 5
-paginate_path: "page:num"
 
-# Custom vars
-version:          2.1.0
+# MatJek specific configurations
+github_profile: "https://github.com/rlnaveenrm"
+user: "Naveenrajamaran"
+contact_url: "https://goo.gl/forms/lkJquoju2Fan7Kyz1"
+google_tracking_id: "UA-96531316-1"
+google_site_verification: "UA-96531316-1"
+disqus_shortname: "gahnoo"
 
-github:
-  repo:           https://github.com/poole/hyde
+# Build settings
+timezone: Asia/Kolkata
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+exclude:
+  - Gemfile
+  - Gemfile.lock
+sass:
+  style: compressed
+future: true
