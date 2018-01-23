@@ -5,9 +5,13 @@ css: ["index.css"]
 <div class="row">
   {% for post in paginator.posts %}
   <div class="col s12 m6">
-    <div class="card small">
+    <div class="card large">
+        <div class="card-image">
+            <img src="{{site.baseurl}}/assets/res/posts/1/cover.jpg">
+            <span class="card-title">{{post.title}}</span>
+          </div>
       <div class="card-content">
-        <span id="post-title" class="card-title">{{post.title}}</span>
+        <!-- <span id="post-title" class="card-title">{{post.title}}</span> -->
         <p id="post-date">
           <i class="material-icons">date_range</i>
           {{post.date | date: "%d/%m/%Y %H:%M"}}
