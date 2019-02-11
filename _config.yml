@@ -17,7 +17,7 @@ title: "Gahnoo"
 description: > # this means to ignore newlines until "baseurl:"
   My thoughts on weapons, technology and politics. 
 baseurl: ""
-url: "https://gahnoo.com"
+url: ""
 permalink: /:year/:month/:day/:title
 repository: rlnaveenrm/rlnaveenrm.github.io
 paginate: 4
